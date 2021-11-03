@@ -1,0 +1,86 @@
+# <#>Pandas<> SpeedSheet
+<b>What you need, faster.<>
+
+
+# Help!
+
+Want to contribute to this speedsheet?
+
+You can submit updates on Github:
+<l>https://github.com/speedsheet/speedsheets<>
+
+SpeedSheet Format:
+<l>/s/stash<>
+
+
+We love having speedsheets for our favorite languages, libraries and tech. But we don't have remotely enough time for all the great docs we want to create. If you would like to help, it would be greatly appreciated! Send your updates to the <l https://github.com/speedsheet/speedsheets>speedsheets repo<>!
+
+And thanks!
+
+
+# Library
+
+
+## Install Library - pip
+
+<cb>pip install pandas<>
+@
+@ command, commandline
+
+
+
+## Install Library - pip requirements.txt
+
+requirements.txt:
+
+<cb>pandas<>
+
+Command:
+
+<cb>pip install -r requiremets.txt<>
+@
+@ command, commandline
+
+
+
+## Program - Import
+
+<cb>import pandas as pd<>
+
+
+
+# DataFrame
+@
+@ data frame
+
+
+
+
+# DataFrame - Operations
+@
+@ data frame
+
+
+### DataFrame - Get Values
+
+<cb>= <v>dataframe_1<>.values<>
+
+
+Returns: <c>array<>	<!>(Confirm. Numpy array?)<>
+
+
+
+# IO
+
+
+### CSV File - Read
+
+<cb>import pandas as pd
+
+<v>data<> = pd.read_csv(<v>file_name<>, sep = ',', header = None)<>
+
+
+Returns: <v>dataframe<>		<!>(Confirm)<>
+
+
+
